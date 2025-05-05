@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Coach Pete Ryan - Personal Trainer</title>
+    <meta name="description" content="Explore personal training services offered by Coach Pete Ryan, including one-on-one training, lower back pain rehabilitation, and kickboxing training.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Coach Pete Ryan Logo">
+                <div class="logo-text">
+                    <div class="coach">COACH</div>
+                    <div class="name">PETE RYAN</div>
+                </div>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="client-zone/login.html" class="btn btn-outline client-login">Client Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner" style="height: 40vh; background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/services-banner.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; text-align: center; margin-top: 80px;">
+        <div class="container">
+            <h1>My Services</h1>
+            <p style="max-width: 700px; margin: 0 auto;">Personalized training programs designed to help you achieve your fitness goals</p>
+        </div>
+    </section>
+
+    <!-- Services Introduction -->
+    <section style="padding: 80px 0; background-color: var(--secondary-black);">
+        <div class="container">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h2>How I Can Help You</h2>
+                <p>As a professional personal trainer with extensive experience in competitive sports and specialized training, I offer a range of services designed to meet your unique fitness needs. Whether you're looking to improve your overall fitness, rehabilitate from an injury, or learn a new skill, I'm here to guide you every step of the way.</p>
+                <p>All of my services include personalized programming, regular progress assessments, and ongoing support to ensure you achieve your goals efficiently and safely.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Training Service -->
+    <section id="personal-training" style="padding: 80px 0; background-color: var(--primary-black);">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="images/personal-training-full.jpg" alt="Personal Training" style="width: 100%; border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <h2>Personal Training</h2>
+                    <p>My one-on-one personal training sessions are tailored to your specific goals, fitness level, and schedule. Each program is designed to maximize results while ensuring proper technique and safety.</p>
+                    
+                    <h3 style="margin-top: 20px; font-size: 1.3rem;">What's Included:</h3>
+                    <ul style="list-style: none; margin-top: 15px;">
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Initial fitness assessment and goal setting</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Customized training program</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Technique instruction and form correction</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Progress tracking and program adjustments</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Nutritional guidance and support</p>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;">Book a Session</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lower Back Pain Rehabilitation -->
+    <section id="back-pain" style="padding: 80px 0; background-color: var(--secondary-black);">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; flex-direction: row-reverse;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="images/back-pain-rehab.jpg" alt="Lower Back Pain Rehabilitation" style="width: 100%; border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <h2>Lower Back Pain Rehabilitation</h2>
+                    <p>As a Level 4 Lower Back Pain specialist, I offer specialized training programs designed to alleviate lower back pain, improve mobility, and strengthen the core muscles that support your spine.</p>
+                    <p>Having experienced lower back issues myself during my competitive career, I understand the frustration and limitations that come with this condition. My approach combines evidence-based techniques with practical experience to help you overcome pain and return to the activities you love.</p>
+                    
+                    <h3 style="margin-top: 20px; font-size: 1.3rem;">What's Included:</h3>
+                    <ul style="list-style: none; margin-top: 15px;">
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Comprehensive assessment of your condition</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Personalized rehabilitation program</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Core strengthening and stabilization exercises</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Mobility and flexibility training</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Education on proper movement patterns</p>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;">Book a Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kickboxing Training -->
+    <section id="kickboxing" style="padding: 80px 0; background-color: var(--primary-black);">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="images/kickboxing-full.jpg" alt="Kickboxing Training" style="width: 100%; border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <h2>Kickboxing Training</h2>
+                    <p>Drawing from my experience as a 2x British kickboxing champion, I offer specialized kickboxing training for individuals of all skill levels. Whether you're looking to learn self-defense, improve your fitness, or compete at an amateur level, my kickboxing programs will help you develop technique, strength, and confidence.</p>
+                    
+                    <h3 style="margin-top: 20px; font-size: 1.3rem;">What's Included:</h3>
+                    <ul style="list-style: none; margin-top: 15px;">
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Proper striking technique and form</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Footwork and movement drills</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Conditioning specific to combat sports</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Pad work and partner drills</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Competition preparation (if desired)</p>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;">Book a Session</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition Coaching -->
+    <section id="nutrition" style="padding: 80px 0; background-color: var(--secondary-black);">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px; flex-direction: row-reverse;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="images/nutrition-coaching.jpg" alt="Nutrition Coaching" style="width: 100%; border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <h2>Nutrition Coaching</h2>
+                    <p>Proper nutrition is essential for achieving your fitness goals, whether you're looking to lose weight, build muscle, or improve athletic performance. My nutrition coaching service provides personalized dietary guidance to complement your training program.</p>
+                    
+                    <h3 style="margin-top: 20px; font-size: 1.3rem;">What's Included:</h3>
+                    <ul style="list-style: none; margin-top: 15px;">
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Nutritional assessment and goal setting</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Customized meal planning</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Macronutrient and calorie guidance</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Supplement recommendations (if needed)</p>
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: flex-start;">
+                            <i class="fas fa-check" style="color: var(--neon-blue); margin-right: 15px; margin-top: 5px;"></i>
+                            <p style="margin: 0;">Regular check-ins and adjustments</p>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;">Book a Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Coaching -->
+    <section id="online" style="padding: 80px 0; background-color: var(--primary-black);">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src
+(Content truncated due to size limit. Use line ranges to read in chunks)

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Coach Pete Ryan - Personal Trainer</title>
+    <meta name="description" content="Get in touch with Coach Pete Ryan, Level 4 Lower Back Pain specialist and 2x full contact British kickboxing champion, for personalized training services.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Coach Pete Ryan Logo">
+                <div class="logo-text">
+                    <div class="coach">COACH</div>
+                    <div class="name">PETE RYAN</div>
+                </div>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="client-zone/login.html" class="btn btn-outline client-login">Client Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner" style="height: 40vh; background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/contact-banner.jpg'); background-size: cover; background-position: center; display: flex; align-items: center; text-align: center; margin-top: 80px;">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p style="max-width: 700px; margin: 0 auto;">Get in touch to discuss your fitness goals and how I can help you achieve them</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" style="padding: 80px 0; background-color: var(--secondary-black);">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Ready to start your fitness journey? Have questions about my services? I'm here to help. Reach out using any of the contact methods below or fill out the form to send me a message directly.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-item-content">
+                                <h4>Location</h4>
+                                <p>123 Fitness Street<br>London, UK</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="contact-item-content">
+                                <h4>Phone</h4>
+                                <p>+44 123 456 7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-item-content">
+                                <h4>Email</h4>
+                                <p>info@coachpeteryan.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div class="contact-item-content">
+                                <h4>Hours</h4>
+                                <p>Monday - Friday: 6am - 8pm<br>Saturday: 8am - 2pm<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 30px;">
+                        <h3>Connect With Me</h3>
+                        <div class="footer-social" style="margin-top: 15px;">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Your Phone</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="" selected disabled>Select a subject</option>
+                                <option value="Personal Training">Personal Training</option>
+                                <option value="Lower Back Pain Rehabilitation">Lower Back Pain Rehabilitation</option>
+                                <option value="Kickboxing Training">Kickboxing Training</option>
+                                <option value="Nutrition Coaching">Nutrition Coaching</option>
+                                <option value="Online Coaching">Online Coaching</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section style="padding: 80px 0; background-color: var(--primary-black);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Find Me</h2>
+                <p>Visit my training studio in central London</p>
+            </div>
+            <div style="margin-top: 50px; border-radius: 10px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+                <div style="position: relative; padding-bottom: 50%; height: 0;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: var(--dark-gray); display: flex; align-items: center; justify-content: center;">
+                        <p style="text-align: center; padding: 20px;">Interactive map would be displayed here.<br>Location: 123 Fitness Street, London, UK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="padding: 80px 0; background-color: var(--secondary-black);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Answers to common questions about my services</p>
+            </div>
+            <div style="margin-top: 50px;">
+                <div style="background-color: var(--dark-gray); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        How do I get started with personal training?
+                        <i class="fas fa-chevron-down" style="font-size: 1rem;"></i>
+                    </h3>
+                    <div style="margin-top: 15px;">
+                        <p>Getting started is easy! Simply contact me through the form above or give me a call. We'll schedule an initial consultation to discuss your goals, assess your current fitness level, and create a personalized training plan. From there, we'll set up your first session and begin your fitness journey.</p>
+                    </div>
+                </div>
+                <div style="background-color: var(--dark-gray); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        How often should I train to see results?
+                        <i class="fas fa-chevron-down" style="font-size: 1rem;"></i>
+                    </h3>
+                    <div style="margin-top: 15px;">
+                        <p>The frequency of training depends on your specific goals, current fitness level, and schedule. For most clients, I recommend 2-3 sessions per week for optimal results. Consistency is key in any fitness program, and we'll work together to create a schedule that fits your lifestyle while ensuring steady progress toward your goals.</p>
+                    </div>
+                </div>
+                <div style="background-color: var(--dark-gray); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        Do you offer nutrition guidance?
+                        <i class="fas fa-chevron-down" style="font-size: 1rem;"></i>
+                    </h3>
+                    <div style="margin-top: 15px;">
+                        <p>Yes, nutrition is a crucial component of any fitness program. I offer nutrition coaching as a standalone service or as part of your personal training package. This includes personalized meal planning, macronutrient guidance, and ongoing support to help you make sustainable dietary changes that complement your training and accelerate your results.</p>
+                    </div>
+                </div>
+                <div style="background-color: var(--dark-gray); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        Can you help with my lower back pain?
+                        <i class="fas fa-chevron-down" style="font-size: 1rem;"></i>
+                    </h3>
+                    <div style="margin-top: 15px;">
+                        <p>Absolutely. As a Level 4 Lower Back Pain specialist, I have extensive training and experience in helping clients overcome chronic back pain through targeted exercise and rehabilitation. My approach focuses on strengthening the core muscles that support your spine, improving mobility, and teaching proper movement patterns to prevent future injuries.</p>
+                    </div>
+                </div>
+                <div style="background-color: var(--dark-gray); padding: 20px; border-radius: 10px;">
+                    <h3 style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;">
+                        What should I bring to my first session?
+                        <i class="fas fa-chevron-down" style="font-size: 1rem;"></i>
+                    </h3>
+                    <div style="margin-top: 15px;">
+                        <p>For your first session, please bring comfortable workout clothes, athletic shoes, a water bottle, and a small towel. If you have any medical records or information about previous injuries that might be relevant to your training, please bring those as well. Most importantly, come with a positive attitude and readiness to begin your transformation journey!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta" style="background-color: var(--dark-gray); padding: 80px 0; text-align: center;">
+        <div class="container">
+            <h2>Ready to Transform Your Fitness?</h2>
+            <p style="max-width: 700px; margin: 0 auto 30px;">Take the first step towards a healthier, stronger you. Contact me today to schedule your initial consultation.</p>
+            <a href="#contactForm" class="btn btn-primary">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Coach Pete Ryan Logo" style="height: 60px;">
+                    </div>
+                    <p>Professional personal training services tailored to your individual needs and goals. Transform your body and mind with Coach Pete Ryan.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-heading">Services</h3>
+                    <ul>
+                        <li><a href="services.html#personal-training">Personal Training</a></li>
+                        <li><a href="services.html#back-pain">Lower Back Pain Rehabilitation</a></li>
+                        <li><a href="services.html#kickboxing">Kickboxing Training</a></li>
+                        <li><a href="services.html#nutrition">Nutrition Coaching</a></li>
+                        <li><a href="services.html#online">Online Coaching</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Contact Info</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        
+(Content truncated due to size limit. Use line ranges to read in chunks)
